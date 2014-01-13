@@ -9,6 +9,11 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+{
+    
+    __weak IBOutlet UITableView *myTableView;
+
+}
 
 @end
 
