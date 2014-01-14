@@ -65,7 +65,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
                         <connections>
-                            <outletCollection property="gestureRecognizers" destination="y5u-e7-udh" appends="YES" id="iyY-fI-svp"/>
+                            <outletCollection property="gestureRecognizers" destination="bG1-hx-oBI" appends="YES" id="oQI-nR-cHm"/>
                         </connections>
                     </view>
                     <connections>
@@ -75,9 +75,9 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="y5u-e7-udh">
+                <swipeGestureRecognizer direction="right" id="bG1-hx-oBI">
                     <connections>
-                        <action selector="onSwipeDelete:" destination="vXZ-lx-hvc" id="KJe-aj-heq"/>
+                        <action selector="onSwipeColorChange:" destination="vXZ-lx-hvc" id="Jef-k8-cnc"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
