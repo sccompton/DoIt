@@ -21,7 +21,6 @@
 		AA4B972B1884757F00B178B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4B970D1884757F00B178B2 /* UIKit.framework */; };
 		AA4B97331884757F00B178B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA4B97311884757F00B178B2 /* InfoPlist.strings */; };
 		AA4B97351884757F00B178B2 /* DoItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4B97341884757F00B178B2 /* DoItTests.m */; };
-		AA4B973F1884A27700B178B2 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA4B973E1884A27700B178B2 /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		AA4B97301884757F00B178B2 /* DoItTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoItTests-Info.plist"; sourceTree = "<group>"; };
 		AA4B97321884757F00B178B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AA4B97341884757F00B178B2 /* DoItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoItTests.m; sourceTree = "<group>"; };
-		AA4B973E1884A27700B178B2 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +60,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA4B973F1884A27700B178B2 /* CheckMate.framework in Frameworks */,
 				AA4B970C1884757F00B178B2 /* CoreGraphics.framework in Frameworks */,
 				AA4B970E1884757F00B178B2 /* UIKit.framework in Frameworks */,
 				AA4B970A1884757F00B178B2 /* Foundation.framework in Frameworks */,
@@ -104,7 +101,6 @@
 		AA4B97081884757F00B178B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AA4B973E1884A27700B178B2 /* CheckMate.framework */,
 				AA4B97091884757F00B178B2 /* Foundation.framework */,
 				AA4B970B1884757F00B178B2 /* CoreGraphics.framework */,
 				AA4B970D1884757F00B178B2 /* UIKit.framework */,
@@ -472,6 +468,7 @@
 				AA4B973A1884757F00B178B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA4B973B1884757F00B178B2 /* Build configuration list for PBXNativeTarget "DoItTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +477,7 @@
 				AA4B973D1884757F00B178B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

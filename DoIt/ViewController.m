@@ -49,6 +49,8 @@
 
     [myTableView reloadData];
     myTextField.text = @"";
+    [myTextField resignFirstResponder];
+
 }
 
 - (IBAction)onEditButtonPressed:(id)sender
